@@ -53,15 +53,7 @@ font: normal 16px Arial, Helvetica, sans-serif; */
 }
 
 
-.responsive-iframe{
-  position: relative;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 80%;
-  height: 90%;
-}
+
 
 
 
@@ -92,18 +84,24 @@ for smaller screens*/
     }
     
     .Resume{
+        position: relative;
         text-align: center;
+        justify-content: center;
         
-        padding-left: 6vw;
-        padding-right: 10vw;
         /*gives the box curved edges*/
         border-radius: 55px;
         display:block;
-        height: 100vh;
-        width: 100%;
-
-           
+        height: 100vh;    
     }
+
+    .Resume iframe{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
    .ultcenter{
         padding-left: 6vw;
         padding-right: 10vw;
@@ -113,9 +111,10 @@ for smaller screens*/
 
 }
 .container3{
-    width: 70%;
+    width: 100%;
     margin-left: auto ;
     margin-right: auto;
+    padding-top: 20%;
 
     
     
@@ -302,6 +301,8 @@ h1{
 
 .ul{
     list-style: none;
+    border: 3px solid #ccc;
+    border-radius: 15px;
 }
 
 
