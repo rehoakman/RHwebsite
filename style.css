@@ -79,6 +79,16 @@ img{
     
     
 }
+
+
+@media(min-width: 768px){
+    .mobile-link{
+        display: none;
+    }
+}
+
+
+
 /* condtions for the image to disappear and fix the about me text
 for smaller screens*/
 @media (max-width: 600px){
@@ -98,7 +108,7 @@ for smaller screens*/
         /*gives the box curved edges*/
         border-radius: 55px;
         display:block;
-        max-height: 10vh;  
+        max-height: 13vh;  
     }
 
     .Resume iframe{
@@ -110,6 +120,11 @@ for smaller screens*/
         padding-right: 10vw;
         
     }
+    .mobile-link{
+        display: inline;
+        
+    }
+    
     
 
 }
@@ -122,6 +137,12 @@ for smaller screens*/
     
     
 }
+
+
+
+
+
+
 h1{
     text-align: center;
 }
@@ -182,6 +203,13 @@ h1{
     border-radius: 15px;
 }
 
+.coursework{
+    text-align: center;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;  
+    height: auto;
+}
 
 
 
